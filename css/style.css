@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #343a40;
+    color: white;
+    border-top: 3px #007bff solid;
+}
+
+.navbar div {
+    color: aquamarine;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-left: 4px;
+    margin-right: 8px;
+}
+
+.btn-icon {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
