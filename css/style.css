@@ -14,7 +14,20 @@
     margin-right: 8px;
 }
 
-.btn-icon {
-    font-weight: 900;
-    font-family: "Font Awesome 5 Free";
+.navbar-nav {
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.body {
+    line-height: 1.5;
 }
