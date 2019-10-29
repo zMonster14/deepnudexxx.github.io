@@ -20,21 +20,24 @@
 
 <div class="container">
 
-    <nav class="navbar">
-        <div>
-            <a class="navbar-brand" href="/"><img src="img/logo.png"/></a>
-            Deep Nude Online
-        </div>
-        <ul class="navbar-nav">
-            <li>
-                <a class="nav-link" href="upload">
-                    <i class="fas fa-fw fa-arrow-alt-from-bottom"></i> Upload
-                </a>
-            </li>
-        </ul>
-    </nav>
-
     <div id="wrapper">
+
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="/"><img src="img/logo.png"/></a>
+                    Deep Nude Online
+                </div>
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" href="upload">
+                            <i class="fas fa-fw fa-arrow-alt-from-bottom"></i> Upload
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <!-- Sidebar -->
         <ul class="sidebar navbar-nav">
@@ -75,9 +78,23 @@
                     <li class="breadcrumb-item active">Overview</li>
                 </ol>
 
-                <h2>Drag to make a selection</h2>
+                <h1 class="text-gray-800">Upload image</h1>
 
-                <div id="area-select"></div>
+                <div class="card mb-3">
+                    <div class="card-header">Upload image and select square area</div>
+
+                    <div class="card-body">
+                        <form name="upload_image_form" target="upload.html">
+                            <label>
+                                Text:
+                                <input name="descr" type="text" class="form-control form-control-sm" />
+                            </label>
+                            <div id="area-select"></div>
+                            <input type="submit" value="Upload" class="btn btn-brand btn-upper btn-bold" />
+                            <input type="button" value="Cancel" class="btn" />
+                        </form>
+                    </div>
+                </div>
             </div>
             <!-- /.container-fluid -->
 

@@ -9,8 +9,9 @@ window.onload = function() {
                 <input type="file" @change="previewImage" accept="image/*">
             </div>
             <div class="image-preview">
+                <p>Drag to make a selection:</p>
                 <!-- img class="preview" v-if="imageData.length > 0" :src="imageData" -->
-                <canvas id="canvas" width="400" height="400"></canvas>
+                <canvas id="canvas"></canvas>
             </div>
         </div>
     `,
